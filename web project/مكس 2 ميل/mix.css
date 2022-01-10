@@ -1,0 +1,371 @@
+body{
+  font-family: 'Baloo Bhaijaan 2', cursive;
+}
+#first{
+
+  margin: 0 0 0 250px;
+  text-decoration: none;
+  color: black;
+}
+#first:hover{
+  color: rgb(197, 27, 27);
+}
+.head{
+  font-size: 48px;
+text-align: center;
+color: black;
+margin-top: 0px;
+}
+#head{
+  font-size: 32px;
+  text-align: center;
+  color: black;
+}
+#row{
+  margin: 10px 100px 0 550px;
+}
+#img{
+  background-size: contain;
+  height: 380px;
+  width: 550px;
+}
+p{
+  font-size: 20px;
+}
+
+#img1{
+  background-size: contain;
+ height: 100px;
+ width: 130px;
+}
+ #img1:hover {
+   transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+ }
+#row1{
+margin: 0 0 0 1000px;
+
+}
+#txt{
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+}
+#txt:hover{
+  color: red;
+}
+#col{
+  margin-left: 80px;
+}
+.txt{
+  text-decoration: none;
+}
+#p{
+  text-align: right;
+}
+#pp{
+  margin-left: 200px;
+}
+/* footer */
+.footer, .social-icons{
+  display: inline;
+  padding-left: 0;
+  margin-left: 0;
+}
+.footer{
+  display: flex;
+  padding-left: 25%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  width: 100%;
+}
+.footer a{
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 0 5px;
+  color: black;
+}
+.footer a:hover{
+  color: #fdc513;
+}
+footer{
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+.footer .foot-icons{
+  color: black;
+  font-size: 25px;
+}
+.footer .foot-icons:hover{
+  color: #fdc513;
+}
+.header{
+  display: flex;
+  padding: 9px 10px;
+  margin-bottom: 30px;
+}
+.logo{
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.150);
+  padding-top: 35px;
+  margin-right: 100px;
+  z-index: 1000;
+}
+nav{
+  width: 100%;
+  height: 6vh;
+}
+nav a{
+  text-decoration: none;
+}
+ul li{
+  list-style: none;
+}
+
+/* List One */
+.list1{
+  display: flex;
+  direction: rtl;
+  position: absolute;
+  display: none;
+  font-size: 14px;
+  z-index: 100;
+  right: 0;
+  background-color: white;
+  width: 100%;
+  padding: 40px 0;
+}
+.list1 .col-xs-2 h3 a{
+  font-size: 20px;
+  color: black;
+}
+.list1 .col-xs-2 h3 a:hover{
+  color: #fdc513;
+}
+.list1 .col-xs-2{
+  margin: 0 20px;
+}
+.list1-content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.list1-content a{
+  color: #ABABAB;
+}
+.list1-content a:hover{
+  color: #fdc513;
+}
+.col-xs-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.first-list{
+  color: black;
+  font-size: 2em;
+  padding-right: 40px;
+}
+.first-list:hover {
+  color: #fdc513;
+}
+.subnav:hover .list1{
+  display: flex;
+  direction: rtl;
+  position: absolute;
+  font-size: 14px;
+  z-index: 100;
+  right: 0;
+  background-color: white;
+  width: 100%;
+  padding: 40px 0;
+}
+
+
+/* List Two */
+.list2{
+  display: flex;
+  direction: rtl;
+  position: absolute;
+  display: none;
+  font-size: 14px;
+  z-index: 100;
+  right: 0;
+  background-color: white;
+  width: 100%;
+  padding: 40px 0;
+}
+.list2 .col-xs-2 h3 a{
+  font-size: 20px;
+  color: black;
+}
+.list2 .col-xs-2 h3 a:hover{
+  color: #fdc513;
+}
+.list2 .col-xs-2{
+  margin: 0 20px;
+}
+.list2-content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.list2-content a{
+  color: #ABABAB;
+}
+.list2-content a:hover{
+  color: #fdc513;
+}
+.col-xs-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.second-list{
+  color: black;
+  font-size: 2em;
+  padding-right: 40px;
+}
+.second-list:hover {
+  color: #fdc513;
+}
+.subnav:hover .list2{
+  display: flex;
+  direction: rtl;
+  position: absolute;
+  font-size: 14px;
+  z-index: 100;
+  right: 0;
+  background-color: white;
+  width: 100%;
+  padding: 40px 0;
+}
+
+
+/* List Three */
+.list3{
+  display: flex;
+  direction: rtl;
+  position: absolute;
+  display: none;
+  font-size: 14px;
+  z-index: 100;
+  right: 0;
+  background-color: white;
+  width: 100%;
+  padding: 40px 0;
+}
+.list3 .col-xs-2 h3 a{
+  font-size: 20px;
+  color: black;
+}
+.list3 .col-xs-2 h3 a:hover{
+  color: #fdc513;
+}
+.list3 .col-xs-2{
+  margin: 0 20px;
+}
+.list3-content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.list3-content a{
+  color: #ABABAB;
+}
+.list3-content a:hover{
+  color: #fdc513;
+}
+.col-xs-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.third-list{
+  color: black;
+  font-size: 2em;
+  padding-right: 40px;
+}
+.third-list:hover {
+  color: #fdc513;
+}
+.subnav:hover .list3{
+  display: flex;
+  direction: rtl;
+  position: absolute;
+  font-size: 14px;
+  z-index: 100;
+  right: 0;
+  background-color: white;
+  width: 100%;
+  padding: 40px 0;
+}
+
+
+
+.main{
+  padding: 0 30px;
+}
+.left-side{
+  padding-left: 150px;
+}
+.left-side .lang span{
+  color: black;
+  font-size: 20px;
+}
+.left-side .lang span:hover{
+  color: #fdc513;
+}
+.left-side .left{
+  color: black;
+  font-size: 25px;
+  padding: 0 10px;
+}
+.left-side .left:hover{
+  color: #fdc513;
+}
+.main .subnav .right{
+  font-size: 25px;
+  padding-right: 5px;
+}
+
+
+/* images section */
+.images-container{
+  display: flex;
+  padding-bottom: 10px;
+}
+.images-container .image{
+  height: 200px;
+  width: 25%;
+  overflow: hidden;
+  position: relative;
+  margin-top: 2px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: #000000;
+}
+
+.images-container .image:hover .overlay {
+  opacity: 0.5;
+}
+

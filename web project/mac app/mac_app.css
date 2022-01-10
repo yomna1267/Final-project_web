@@ -1,0 +1,273 @@
+#img1{
+  margin-left: -150px;
+}
+
+/* footer */
+.footer, .social-icons{
+  display: inline;
+  padding-left: 0;
+  margin-left: 0;
+}
+.footer{
+  display: flex;
+  padding-left: 25%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  width: 100%;
+}
+.footer a{
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 0 5px;
+  color: black;
+}
+.footer a:hover{
+  color: #fdc513;
+}
+footer{
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+.footer .foot-icons{
+  color: black;
+  font-size: 25px;
+}
+.footer .foot-icons:hover{
+  color: #fdc513;
+}
+.header{
+  display: flex;
+  padding: 9px 10px;
+}
+.logo{
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.150);
+  padding-top: 35px;
+  margin-right: 100px;
+  z-index: 1000;
+}
+nav{
+  width: 100%;
+  height: 6vh;
+}
+nav a{
+  text-decoration: none;
+}
+ul li{
+  list-style: none;
+}
+
+
+/* List One */
+.list1{
+  display: flex;
+  direction: rtl;
+  position: absolute;
+  display: none;
+  font-size: 14px;
+  z-index: 100;
+  right: 0;
+  background-color: white;
+  width: 100%;
+  padding: 40px 0;
+}
+.list1 .col-xs-2 h3 a{
+  font-size: 20px;
+  color: black;
+}
+.list1 .col-xs-2 h3 a:hover{
+  color: #fdc513;
+}
+.list1 .col-xs-2{
+  margin: 0 20px;
+}
+.list1-content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.list1-content a{
+  color: #ABABAB;
+}
+.list1-content a:hover{
+  color: #fdc513;
+}
+.col-xs-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.first-list{
+  color: black;
+  font-size: 2em;
+  padding-right: 40px;
+}
+.first-list:hover {
+  color: #fdc513;
+}
+.subnav:hover .list1{
+  display: flex;
+  direction: rtl;
+  position: absolute;
+  font-size: 14px;
+  z-index: 100;
+  right: 0;
+  background-color: white;
+  width: 100%;
+  padding: 40px 0;
+}
+
+
+/* List Two */
+.list2{
+  display: flex;
+  direction: rtl;
+  position: absolute;
+  display: none;
+  font-size: 14px;
+  z-index: 100;
+  right: 0;
+  background-color: white;
+  width: 100%;
+  padding: 40px 0;
+}
+.list2 .col-xs-2 h3 a{
+  font-size: 20px;
+  color: black;
+}
+.list2 .col-xs-2 h3 a:hover{
+  color: #fdc513;
+}
+.list2 .col-xs-2{
+  margin: 0 20px;
+}
+.list2-content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.list2-content a{
+  color: #ABABAB;
+}
+.list2-content a:hover{
+  color: #fdc513;
+}
+.col-xs-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.second-list{
+  color: black;
+  font-size: 2em;
+  padding-right: 40px;
+}
+.second-list:hover {
+  color: #fdc513;
+}
+.subnav:hover .list2{
+  display: flex;
+  direction: rtl;
+  position: absolute;
+  font-size: 14px;
+  z-index: 100;
+  right: 0;
+  background-color: white;
+  width: 100%;
+  padding: 40px 0;
+}
+
+
+/* List Three */
+.list3{
+  display: flex;
+  direction: rtl;
+  position: absolute;
+  display: none;
+  font-size: 14px;
+  z-index: 100;
+  right: 0;
+  background-color: white;
+  width: 100%;
+  padding: 40px 0;
+}
+.list3 .col-xs-2 h3 a{
+  font-size: 20px;
+  color: black;
+}
+.list3 .col-xs-2 h3 a:hover{
+  color: #fdc513;
+}
+.list3 .col-xs-2{
+  margin: 0 20px;
+}
+.list3-content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.list3-content a{
+  color: #ABABAB;
+}
+.list3-content a:hover{
+  color: #fdc513;
+}
+.col-xs-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.third-list{
+  color: black;
+  font-size: 2em;
+  padding-right: 40px;
+}
+.third-list:hover {
+  color: #fdc513;
+}
+.subnav:hover .list3{
+  display: flex;
+  direction: rtl;
+  position: absolute;
+  font-size: 14px;
+  z-index: 100;
+  right: 0;
+  background-color: white;
+  width: 100%;
+  padding: 40px 0;
+}
+
+
+
+.main{
+  padding: 0 30px;
+}
+.left-side{
+  padding-left: 150px;
+}
+.left-side .lang span{
+  color: black;
+  font-size: 20px;
+}
+.left-side .lang span:hover{
+  color: #fdc513;
+}
+.left-side .left{
+  color: black;
+  font-size: 25px;
+  padding: 0 10px;
+}
+.left-side .left:hover{
+  color: #fdc513;
+}
+.main .subnav .right{
+  font-size: 25px;
+  padding-right: 5px;
+}
+
+
